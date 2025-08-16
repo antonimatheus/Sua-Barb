@@ -1,6 +1,6 @@
 // Configuração do GTranslate
 window.gtranslateSettings = {
-  default_language: "en",
+  default_language: "pt",
   languages: ["en", "pt", "es", "hi", "ru"],
   flag_style: "3d",
   flag_size: 24,
