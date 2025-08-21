@@ -27,6 +27,21 @@ body {
   gap: 5%;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+span {
+  color: white;
+}
+
 #social a {
   display: flex;
   justify-content: center;
@@ -121,10 +136,14 @@ body {
 }
 
 .modelo {
-  width: 100%; /* Preenche toda a largura do contêiner */
-  height: 100%; /* Preenche toda a altura do contêiner */
-  object-fit: cover; /* Garante que a imagem preencha proporcionalmente o espaço */
-  object-position: center; /* Centraliza o foco no meio da imagem */
+  width: 100%;
+  /* Preenche toda a largura do contêiner */
+  height: 100%;
+  /* Preenche toda a altura do contêiner */
+  object-fit: cover;
+  /* Garante que a imagem preencha proporcionalmente o espaço */
+  object-position: center;
+  /* Centraliza o foco no meio da imagem */
   border-radius: 10px;
   /*filter: blur(3.5px);*/
 }
@@ -134,9 +153,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40px; /* Ajusta o tamanho do cadeado conforme necessário */
+  width: 40px;
+  /* Ajusta o tamanho do cadeado conforme necessário */
   z-index: 2;
-  pointer-events: none; /* O clique não afeta o cadeado, apenas o link da imagem */
+  pointer-events: none;
+  /* O clique não afeta o cadeado, apenas o link da imagem */
 }
 
 .star--active {
@@ -173,11 +194,12 @@ body {
   border-radius: 15px;
   color: var(--whitesmoke);
   background-color: var(--rose);
+  box-shadow: 1px 1px 10px #fcaebe;
   gap: 10px;
   transition: 0.4s;
 }
 
-#buttonCTA > a > i {
+#buttonCTA>a>i {
   position: relative;
   animation: arrowmove infinite alternate 0.4s;
 }

@@ -1,4 +1,4 @@
-// Configuração do GTranslate
+/*// Configuração do GTranslate
 window.gtranslateSettings = {
   default_language: "pt",
   languages: ["en", "pt", "es", "hi", "ru"],
@@ -13,4 +13,4 @@ window.gtranslateSettings = {
 const script = document.createElement("script");
 script.src = "https://cdn.gtranslate.net/widgets/latest/float.js";
 script.async = true;
-document.body.appendChild(script);
+document.body.appendChild(script);*/
