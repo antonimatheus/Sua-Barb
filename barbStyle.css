@@ -111,6 +111,7 @@ body {
   /* Centraliza o foco no meio da imagem */
   border-radius: 10px;
   /*filter: blur(3.5px);*/
+    filter: blur(3.5px);
 }
 
 .cadeado {
